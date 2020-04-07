@@ -14,7 +14,7 @@ class Resource(object):
 app = falcon.API()
 
 # Resources are represented by long-lived class instances
-resource = ThingsResource()
+resource = Resource()
 
 # things will handle all requests to the '/things' URL path
 app.add_route('/resource', resource)
