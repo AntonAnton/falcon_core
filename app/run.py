@@ -5,10 +5,10 @@ class Resource(object):
     def on_get(self, req, resp):
         """Handles GET requests"""
         resp.status = falcon.HTTP_200  # This is the default status
-        resp.body = ('\nTwo things awe me most, the starry sky '
-                     'above me and the moral law within me.\n'
+        resp.body = ('\nHey, I love you, i want you, i want to go for'
+                     ' a walking with you and i wont to eat little bit\n'
                      '\n'
-                     '    ~ Immanuel Kant\n\n')
+                     '    ~ Your lovely husband\n\n')
 
 # falcon.API instances are callable WSGI apps
 app = falcon.API()
